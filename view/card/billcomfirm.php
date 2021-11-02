@@ -1,0 +1,1 @@
+<H2 style="text-align:center;">Đặt hàng thành công</H2>

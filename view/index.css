@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+    font-size:1vw;
+}
+.container1 {
+    width: 80%;
+    margin: 0 auto;
+}
+.row1{
+    float: left;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-right: 2%;
+}
+.demo{
+    background-color: antiquewhite;
+    min-height:100px;
+}
+.header{
+    background-color: antiquewhite;
+    border: 1px solid rgb(99, 107, 56);
+   
+    color: rgb(14, 87, 116);
+    border-radius: 5px;
+}
+.header h1{
+    margin:10px 20px;
+    font-size:1.2vw;
+}
+.menu{
+    background-color: rgb(215, 220, 250);
+ 
+    
+    color: rgb(206, 219, 224);
+    border-radius: 5px;
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 24%;
+}
+.footer{
+    background-color: antiquewhite;
+    border: 1px solid rgb(99, 107, 56);
+    font-size:0.8vw;
+    color: rgb(14, 87, 116);
+    border-radius: 5px;
+    padding: 20px;
+}
+.boxtieude{
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   border: 1px solid #ccc;
+}
+.boxconten{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding:20px;
+}
+.boxconten2{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+   
+    min-height: 200px;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   border: 1px solid #ccc;
+   
+}
+.boxtrai .banner img{
+    width: 100%;
+}
+.sp1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.boxsp{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgb(165, 189, 179);
+    
+}
+.menu li{
+    display: inline-block;
+}
+.li1>a{
+    padding: 20px;
+    text-decoration: none;
+    line-height:50px;
+}
+.li1>a:hover{
+    color:rgb(233, 21, 120);
+    font-size: 18px;
+    transition:0.5s ease-in-out;
+}
+li>a{
+    text-decoration: none;
+}
+.formtaikhoan{
+
+    line-height:150%;
+}
+.formtaikhoan input[type="text"],.formtaikhoan input[type="password"],.formconten input[type="text"] {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+.formtaikhoan input[type="submit"]{
+    background-color: rgb(40, 120, 185);
+    border-radius: 5px;
+    border: none;
+}
+
+/* menu doc */
+.menudoc ul {
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+.menudoc ul li{
+    padding:10px 20px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.menudoc ul li a{ 
+text-decoration: none;
+color: rgb(41, 10, 27);
+
+}
+.menudoc ul li:hover{ 
+    background: rgb(84, 107, 189);
+}
+.seach_box input[type="text"]{
+    width: 100%;
+    padding:5px 10px;
+    background:#eee;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.top10 img{
+    width: 20%;
+    float: left;
+    height: 50px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.top10 a{
+    color:#666;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color:rgb(12, 2, 2);
+    text-decoration: underline;
+}
+/* loại hang */
+.formdsloai table {
+width: 100%;
+border-collapse: collapse;
+
+}
+.formdsloai table th{
+    padding:  20px;
+    background: #ccc;
+    
+}
+.formdsloai table td {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    
+    }
+  
